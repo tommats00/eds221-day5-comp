@@ -1,6 +1,8 @@
 ---
 title: "The Leslie Matrix - revisited"
 output: html_document
+editor_options: 
+  chunk_output_type: console
 ---
 
 ```{r setup, include=FALSE}
@@ -46,6 +48,7 @@ Add line-by-line comments wheres prompted in the code below, explaining what eac
 # The line below...
 time_yr <- seq(from = 0, to = 8, by = 1)
 
+## this MATRIX WILL ALLOW FOR PROJECTION AT DIFFERENT TIMES 
 # The line below...
 proj_year <- matrix(ncol = length(fish_year0), nrow = length(time_yr))
 
